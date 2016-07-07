@@ -1,0 +1,49 @@
+{
+    "name":        "fanst1109/doctrine-module",
+    "description": "Zend Framework 2 Module that provides Doctrine basic functionality required for ORM and ODM modules",
+    "type":        "library",
+    "license":     "MIT",
+    "homepage":    "http://www.doctrine-project.org/",
+    "keywords":    [
+        "doctrine",
+        "module"
+    ],
+    "authors":     [
+        {
+            "name": "Kyle Spraggs",
+            "email": "theman@spiffyjr.me",
+            "homepage": "http://www.spiffyjr.me/"
+        },
+        {
+            "name": "Marco Pivetta",
+            "email": "ocramius@gmail.com",
+            "homepage": "http://marco-pivetta.com/"
+        },
+        {
+            "name": "Guilherme Blanco",
+            "email": "guilhermeblanco@hotmail.com"
+        },
+        {
+            "name": "Michaël Gallego",
+            "email": "mic.gallego@gmail.com",
+            "homepage": "http://www.michaelgallego.fr"
+        }
+    ],
+    "require": {
+        "php":                                "^5.5 || ^7.0",
+        "doctrine/common":                    "~2.6",
+        "doctrine/cache":                     "~1.5",
+        "symfony/console":                    "~2.3|~3.0"
+    },
+    "suggest": {
+        "doctrine/data-fixtures": "Data Fixtures if you want to generate test data or bootstrap data for your deployments"
+    },
+    "autoload": {
+        "psr-0": {
+            "DoctrineModule\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/doctrine-module"
+    ]
+}
