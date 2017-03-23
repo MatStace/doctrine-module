@@ -1,3 +1,6 @@
+This went away from github, and I had a thing which relied on it, so I re-upped it. I'll take it down if required
+
+--------original readme below the line-------
 # DoctrineModule for Zend Framework 3
 
 Installation of DoctrineModule uses composer. For composer documentation, please refer to
